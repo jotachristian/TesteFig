@@ -8,7 +8,7 @@ header {
     background-image: url(/img/Background-nav.svg);
     display: flex;
     width: 100%;
-    height: auto;
+    height: 180px;
     display: block;
     object-fit: cover;
     padding: 40px;
@@ -16,8 +16,8 @@ header {
 
 .Logo {
     display: flex;
-    width: 193px;
-    height: 86px;
+    width: 183px;
+    height: 76px;
     flex-shrink: 0;
     /* border: 2px solid red; */
 }
@@ -30,14 +30,23 @@ header {
     gap: 20px;
 }
 
+.outlogo {
+    /* border: 5px solid purple; */
+    display: flex;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
 .buscar {
     display: flex;
     align-items: center;
     gap: 20px;
     background-color: white;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     width: 480px;
+    height: 40px;
     color: gray;
     text-align: left;
     font-family: Inter;
@@ -70,6 +79,68 @@ header {
     height: 20px;
 }
 
+.services {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    /* border: 4px solid red; */
+    padding: 10px;
+}
+
+.services p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.services button {
+    background: none;
+    border: none;
+}
+
+.services a {
+
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 11px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.services a:hover {
+    text-decoration: underline;
+}
+
+.services #Entrada {
+    color: rgba(255, 255, 0, 0.868);
+}
+
+.services #linkpreenchido {
+    display: flex;
+    gap: 5px;
+}
+
+#welcome {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#Card:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+}
+
 
 nav {
     /* border: 2px solid red; */
@@ -82,6 +153,7 @@ nav ul a {
 nav ul {
     display: flex;
     justify-content: center;
+    padding-top: 10px;
     gap: 20px;
 }
 
@@ -111,6 +183,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgba(255, 255, 0, 0.868);
+    transition: 0.4s;
     height: 40px;
     width: auto;
     display: flex;
@@ -118,4 +191,32 @@ nav ul li a:hover {
     justify-content: center;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.border-banner {
+    /* border: 2px solid black; */
+    background-image: url(/img/Background-nav.svg);
+    width: 100%;
+    height: 91px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baixar-app {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baixar-app p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
 }
