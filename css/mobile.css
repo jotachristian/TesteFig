@@ -1,3 +1,80 @@
-.container {
-    display: block;
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .outlogo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .buscar {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .buscar input {
+        width: calc(100% - 40px); /* Ajuste para o padding e ícone */
+    }
+
+    .search-logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .services {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .services p {
+        font-size: 12px;
+    }
+
+    #Card {
+        width: 30px;
+        height: 30px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .border-banner {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .baixar-app {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .baixar-app p {
+        font-size: 12px;
+    }
+
+    .baixar-app img {
+        width: 30px;
+        height: 30px;
+    }
 }
+

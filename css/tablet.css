@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1100px) and (min-width: 769px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .outlogo {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .buscar {
+        width: 100%;
+    }
+
+    .buscar input {
+        width: calc(100% - 40px);
+    }
+
+    .search-logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    .services {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .services p {
+        font-size: 12px;
+    }
+
+    #Card {
+        width: 30px;
+        height: 30px;
+    }
+}

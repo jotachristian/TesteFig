@@ -203,6 +203,7 @@ nav ul li a:hover {
 .border-banner {
     /* border: 2px solid black; */
     background-image: url(/img/Background-nav.svg);
+    background-size: 100%;
     width: 100%;
     height: 91px;
     flex-shrink: 0;
